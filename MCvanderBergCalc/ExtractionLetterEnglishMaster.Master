@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ExtractionLetterEnglishMaster.master.cs" Inherits="MCvanderBergCalc.ExtractionLetterEnglishMaster" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <%--<link rel="stylesheet" href="http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/style.css" type="text/css" media="screen" />--%>
+    <link href='http://fonts.googleapis.com/css?family=Kreon:light,regular' rel='stylesheet' type='text/css' />
+    <link href="Content/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <%--    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/uploads/formidable/css/formidablepro.css?ver=2.0.08' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/plugins/olevmedia-shortcodes/assets/css/shortcodes-tablet.css?ver=4.2.7' type='text/css' media='screen and (min-width: 768px) and (max-width: 959px)' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/plugins/olevmedia-shortcodes/assets/css/shortcodes-mobile.css?ver=4.2.7' type='text/css' media='screen and (max-width: 767px)' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/plugins/wp-user-frontend/assets/css/frontend-forms.css?ver=4.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/plugins/wp-user-frontend/assets/css/jquery-ui-1.9.1.custom.css?ver=4.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/css/responsive.css?ver=4.2.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/epanel/shortcodes/css/shortcodes.css?ver=3.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/epanel/shortcodes/css/shortcodes_responsive.css?ver=3.0' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/plugins/master-slider/public/assets/css/masterslider.main.css?ver=2.2.1' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/uploads/master-slider/custom.css?ver=1.7' type='text/css' media='all' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/epanel/page_templates/js/fancybox/jquery.fancybox-1.3.4.css?ver=1.3.4' type='text/css' media='screen' />
+    <link rel='stylesheet' href='http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/epanel/page_templates/page_templates.css?ver=1.8' type='text/css' media='screen' />--%>
+    <link id='droid_sans' href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css' />
+    <link href="Content/font-awesome-4.6.1/css/font-awesome.min.css" rel="stylesheet" />
+
+    <style type='text/css'>
+        body {
+            font-family: 'Droid Sans', Arial, sans-serif !important;
+        }
+
+        .mysidebar {
+            font-family: 'Droid Sans', Arial, sans-serif !important;
+        }
+
+        .widget {
+            font-family: 'Droid Sans', Arial, sans-serif !important;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <div id="content-area">
+                <div id="content-top-light">
+                    <div class="container">
+                        <div id="logo-area">
+                            <a href="home.aspx">
+                                <img src="http://gpdemo.co.za/mcconcept/wp-content/themes/Aggregate/images/mclogo-l2.png" alt="M.C. van der Berg Incorporated" id="logo" />
+                            </a>
+                            <p id="slogan"></p>
+                        </div>
+                        <!-- end #logo-area -->
+                        <div id="content">
+                            <div id="inner-border">
+                                <div id="content-shadow">
+                                    <div id="content-top-shadow">
+                                        <div id="content-bottom-shadow">
+                                            <div id="second-menu" class="clearfix">
+                                                <ul id="secondary-menu" class="nav">
+                                                    <li id="menu-item-4459" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4459"><a href="home.aspx">Website</a>
+                                                    </li>
+                                                    <li id="menu-item-4460" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4460"><a href="javascript:window.print()">Print</a>
+                                                    </li>
+                                                    <li id="menu-item-4461" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-4460"><a href="mailto:#">Email to</a>
+                                                    </li>
+                                                    <%--													<li id="menu-item-84" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-84"><a href="Mcademy.aspx">MCademy</a></li>--%>
+                                                </ul>
+                                            </div>
+                                            <!-- end #second-menu -->
+                                            <div id="main-content" class="clearfix">
+                                                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                                </asp:ContentPlaceHolder>
+                                                <div class="bottomextraction">
+                                                    <div><a style="color: #000 !important; font-weight: bold;" href="ContactsUs" target="_blank">Contact us</a></div>
+
+                                                </div>
+
+
+                                                <!-- end #sidebar -->
+                                                <div id="index-top-shadow"></div>
+                                            </div>
+                                            <!-- end #main-content -->
+                                        </div>
+                                        <!-- end #content-bottom-shadow -->
+                                    </div>
+                                    <!-- end #content-top-shadow -->
+                                </div>
+                                <!-- end #content-shadow -->
+                            </div>
+                            <!-- end #inner-border -->
+                        </div>
+                        <!-- end #content -->
+                    </div>
+                    <!-- end .container -->
+                </div>
+                <!-- end #content-top-light -->
+            </div>
+            <!-- end #content-area -->
+        </div>
+    </form>
+</body>
+</html>

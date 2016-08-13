@@ -1,0 +1,7 @@
+﻿<table cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td style="text-align:center; font-family:Arial; font-size:11px; font-weight:bold; color:#000;width: 615px; padding-bottom: 10px;">
+                                Having trouble viewing this? <a href="www.mcvdberg.co.za/language/en/PreviewComplimentSlip.aspx?id=#ID#" target="_blank" style="text-decoration: none; color: #backcolor;">Click here</a> to view it online.
+                            </td>
+                        </tr>
+                    </table>
