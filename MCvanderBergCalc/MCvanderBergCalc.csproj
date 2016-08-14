@@ -1199,6 +1199,7 @@
     <Content Include="Images\header-bg.png" />
     <Content Include="Images\IconsForMail\InformationPageEng.jpg" />
     <Content Include="Images\IconsForMail\MCBondGuide.jpg" />
+    <Content Include="Images\IconsForMail\MCBondGuide.png" />
     <Content Include="Images\IconsForMail\MCDevelopersGuide.jpg" />
     <Content Include="Images\IconsForMail\MCFeeSheet.jpg" />
     <Content Include="Images\IconsForMail\MCKitsGids.jpg" />
@@ -1906,6 +1907,7 @@
     <Content Include="Templates\BottomPart.txt" />
     <Content Include="Templates\CanWeAssistTemplate.html" />
     <Content Include="Templates\ComplimentarySlipEnglishLinks.html" />
+    <Content Include="Templates\complimentslipenglish - Copy.html" />
     <Content Include="Templates\complimentslipenglish.html" />
     <Content Include="Templates\FirstTimeUser.html" />
     <Content Include="Templates\IntBirthTemplate.html" />
